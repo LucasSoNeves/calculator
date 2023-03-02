@@ -6,6 +6,31 @@
     font-size: large;
 }
 
+.btn {
+    display: inline-block;;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 20px;
+    cursor: pointer;
+    border: 1px dashed black;
+}
+
+.btn:not(:last-child) {
+    margin-left: 20vw;
+}
+
+#mostrar {
+    background-color: green;
+    padding: 10px;
+    color: white;
+}
+
+#ocultar {
+    background-color: red;
+    padding: 10px;
+    color: white;
+}
+
 .calc {
     width: 400px;
     height: 600px;

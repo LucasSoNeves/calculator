@@ -2,9 +2,16 @@ const numberTecles =[...document.querySelectorAll(".num")]
 const OperationTecles = [...document.querySelectorAll(".operation")]
 const resultTecle = document.querySelector(".result")
 const display = document.querySelector("#screen")
-const startOff = document.getElementById("#k_off")
+const startOff = document.querySelector("#k_off")
 const clear = document.querySelector("#k_clear")
 const equivalent = document.querySelector("#k_equivalent")
+
+const calculator = document.querySelector(".all")
+const mostrar = document.querySelector("#mostrar")
+const ocultar = document.querySelector("#ocultar")
+
+const after = document.querySelector(".calc")
+
 
 
 let signal = false
@@ -59,4 +66,26 @@ equivalent.addEventListener("click", (evt) => {
     decimal = false
     const result = eval(display.innerHTML)
     display.innerHTML = result
+})
+
+ocultar.addEventListener("click", () => {
+    if( calculator.style.display = "block" ) {
+        calculator.style.display ="none"
+        after.style.height = "30px"
+    }
+})
+
+mostrar.addEventListener("click", () => {
+    if( calculator.style.display = "none" ) {
+        calculator.style.display = "block"
+        after.style.height = "600px"
+    }
+})
+
+startOff.addEventListener("click", (evt) => {
+   if( startOff.innerHTML == "OFF" ) {
+    startOff.innerHTML = "ON"
+   } else {
+    startOff.innerHTML = "OFF"
+   }
 })
