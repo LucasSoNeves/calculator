@@ -1,0 +1,24 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    border: none;
+    font-size: large;
+}
+
+.carros {
+    display: flex;
+    width: 100%;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.carro {
+    border: 2px solid blue;
+    background-color: lightseagreen;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    width: 200px;
+}

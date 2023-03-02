@@ -1,0 +1,55 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    border: none;
+    font-size: large;
+}
+
+.cars {
+    display: flex;
+    width: 100%;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.removerCarro {
+    background-color: lightgray;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+.carro {
+    border: 2px solid blue;
+    background-color: lightseagreen;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    width: 200px;
+    margin-right: 2px;
+    flex-direction: column;
+}
+
+.formField {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.formField input {
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.formField button {
+    background-color: lightgray;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+}

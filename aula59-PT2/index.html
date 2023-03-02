@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>POO(Classes)</title>
+</head>
+<body>
+    <div class="carCreate" id="carCreate">
+        <div class="formField">
+            <label>Name</label>
+            <input type="text" name="f_name" id="f_name" value="">
+        </div>
+        <div class="formField">
+            <label>Doors</label>
+            <input type="number" name="f_doors" id="f_doors" value="0">
+        </div>
+        <div class="formField">
+            <label>Armor</label>
+            <input type="number" name="f_armor" id="f_armor" value="0" disabled>
+        </div>
+        <div class="formField">
+            <label>Ammunition</label>
+            <input type="number" name="f_ammunition" id="f_ammunition" value="0" disabled>
+        </div>
+        <div class="formField">
+            <label>Type</label>
+            <div class="radio">
+                <input type="radio" name="f_type" id="f_typeMilitary" value="m"> Military
+            </div>
+            <div class="radio_2">
+                <input type="radio" name="f_type" id="f_typeNormal" value="n" checked> Normal
+            </div>
+        </div>
+        <div class="formField" id="btn_addCarro">
+            <button>Adicionar</button>
+        </div>
+    </div>
+    <div class="cars">
+
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    box-sizing: border-box;
+}
+
+.caixa {
+    border: 1px dashed black;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    border-radius: 5px;
+}

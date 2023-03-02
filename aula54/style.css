@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.valor {
+    width: 50vw;
+    font-family: sans-serif;
+    margin-left: 20px;
+}
+
+.valor input {
+    width: 50vw;
+    margin-bottom: 10px;
+    background-color: lightgray;
+    color: blue;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+label {
+    color: red;
+}
+
+.operacoes {
+    margin-left: 10px;
+}
+
+button {
+    font-size: 20px;
+    margin: 10px;
+    width: 50px;
+    border: 1px dashed black;
+}
